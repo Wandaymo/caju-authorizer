@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="30ZFSspiio5uO7pxkpNi">
+    <mxGraphModel dx="1950" dy="722" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="200" width="216" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="269.66" as="sourcePoint" />
+            <mxPoint x="130" y="269.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhYOB5CdQaIOIUDRHRiT-4" target="PhYOB5CdQaIOIUDRHRiT-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-4" value="Load Balancer&lt;div&gt;AWS ELB&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="225" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-6" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Transaction Service&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="225" width="166" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-9" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0ibTEyLjc1IDIyYzAgLjQxNC0uMzM2Ljc1LS43NS43NXMtLjc1LS4zMzYtLjc1LS43NS4zMzYtLjc1Ljc1LS43NS43NS4zMzYuNzUuNzV6bTE1LjA2NC00Ljc0aC4yMTVjMS4zNDUgMCAyLjYwMy0uNzE5IDMuMjgxLTEuODc1LjA2Ni0uMTEyLjA2Ni0uMjUyIDAtLjM2NC0uNjEzLTEuMDQ0LTEuNjY0LTEuNzE4LTIuODU3LTEuODQ4LS4xMTEtMS4yMjUtLjgzLTIuMzMxLTEuOTMyLTIuOTM5LS4xMDctLjA2MS0uMjM5LS4wNjEtLjM0OSAwLTEuMi42NjUtMS45NDYgMS45MTktMS45NDYgMy4yNzMgMCAuNzY4LjI0MSAxLjUxNC42NzkgMi4xMzhoLTIuNTQ1di0zLjY0NWMwLS4xOTktLjE2MS0uMzYtLjM2LS4zNmgtMy42NHYtNy42NGMwLS4xOTktLjE2MS0uMzYtLjM2LS4zNmgtNGMtLjE5OSAwLS4zNi4xNjEtLjM2LjM2djMuNjRoLTMuNjRjLS4xOTkgMC0uMzYuMTYxLS4zNi4zNnYzLjY0aC0zLjY0Yy0uMTk5IDAtLjM2LjE2MS0uMzYuMzZ2My42NDJoLTQuNjRjLS4wOTYgMC0uMTg3LjAzOC0uMjU0LjEwNS0uMDY4LjA2Ny0uMTA1LjE1OS0uMTA1LjI1NHYuODk4YzAgMi44MjYgMS4xNDggNS4zOTQgMy4wMTEgNy4yNzcuMDMzLjA1OC4wODEuMTA1LjEzOS4xMzggMS45MjkgMS44ODIgNC41ODYgMy4wNDYgNy41MTYgMy4wNDYgOC44MzcgMCAxNS44MTQtNS45MTMgMTYuNTA3LTEwLjF6bS0xNy43NjcgNi4zODdjLjE5LS4wNTcuMjk5LS4yNTcuMjQzLS40NDdzLS4yNTYtLjMwMS0uNDQ4LS4yNDJjLTEuNDI1LjQyMy0zLjQ5OS42Ny01LjcxLjY4Mi0xLjcxNi0xLjc1MS0yLjc3Mi00LjEyNy0yLjc3Mi02Ljc0di0uNTM5bDI0LjM0LjAwM2MuMTQ4IDAgLjI4Mi0uMDkxLjMzNi0uMjNzLjAxNy0uMjk2LS4wOTQtLjM5NmMtLjYzMy0uNTc0LS45OTUtMS4zODctLjk5NS0yLjIzMSAwLTEuMDI2LjUzMS0xLjk4MSAxLjQtMi41NC44NjkuNTU4IDEuNCAxLjUxMyAxLjQgMi41NHYuMDA0YzAgLjE5Ni4xNTYuMzU1LjM1My4zNiAxLjAwNS4wMjIgMS45MTUuNTE3IDIuNDc0IDEuMzMzLS41Ny44My0xLjUyNiAxLjMzNy0yLjU0NSAxLjMzN2gtLjUzMWMtLjE4NyAwLS4zNDMuMTQzLS4zNTguMzI5LS4zMzcgMy44NDQtNy4yODcgOS43NzEtMTUuODM0IDkuNzcxLTIuNDM4IDAtNC42NzMtLjg2My02LjQwNC0yLjI5NCAxLjk4Ny0uMDYgMy44MjUtLjMwOCA1LjE0NS0uN3ptOC4zMTMtMTEuMjg3aDMuMjc5djMuMjhoLTMuMjc5em0tNCAwaDMuMjh2My4yOGgtMy4yOHptLTQgMGgzLjI4djMuMjhoLTMuMjh6bS00IDBoMy4yOHYzLjI4aC0zLjI4em04LTRoMy4yOHYzLjI4aC0zLjI4em0tNCAwaDMuMjh2My4yOGgtMy4yOHptNC00aDMuMjh2My4yOGgtMy4yOHoiLz48cGF0aCBmaWxsPSJub25lIiBkPSJtMCAwaDMydjMyaC0zMnoiLz48L3N2Zz4=;" vertex="1" parent="1">
+          <mxGeometry x="699" y="313" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhYOB5CdQaIOIUDRHRiT-10" target="PhYOB5CdQaIOIUDRHRiT-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-10" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="562.75" y="740" width="93" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhYOB5CdQaIOIUDRHRiT-15" target="PhYOB5CdQaIOIUDRHRiT-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-15" value="Redis&lt;div&gt;(Distributed Locking)&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="574.5" y="380" width="85" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-20" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Prometheus&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="477.75" y="940" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-23" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Grafana&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645.5" y="940" width="109" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-28" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="225" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PhYOB5CdQaIOIUDRHRiT-28" target="PhYOB5CdQaIOIUDRHRiT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PhYOB5CdQaIOIUDRHRiT-6" target="PhYOB5CdQaIOIUDRHRiT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-32" value="Locking" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="425" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="509" y="550" width="216" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PhYOB5CdQaIOIUDRHRiT-36">
+          <mxGeometry width="216" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PhYOB5CdQaIOIUDRHRiT-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="101.13793103448279" y="190" as="targetPoint" />
+            <mxPoint x="101" y="115" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-34" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Account Service&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PhYOB5CdQaIOIUDRHRiT-36">
+          <mxGeometry x="10" y="25" width="166" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-35" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0ibTEyLjc1IDIyYzAgLjQxNC0uMzM2Ljc1LS43NS43NXMtLjc1LS4zMzYtLjc1LS43NS4zMzYtLjc1Ljc1LS43NS43NS4zMzYuNzUuNzV6bTE1LjA2NC00Ljc0aC4yMTVjMS4zNDUgMCAyLjYwMy0uNzE5IDMuMjgxLTEuODc1LjA2Ni0uMTEyLjA2Ni0uMjUyIDAtLjM2NC0uNjEzLTEuMDQ0LTEuNjY0LTEuNzE4LTIuODU3LTEuODQ4LS4xMTEtMS4yMjUtLjgzLTIuMzMxLTEuOTMyLTIuOTM5LS4xMDctLjA2MS0uMjM5LS4wNjEtLjM0OSAwLTEuMi42NjUtMS45NDYgMS45MTktMS45NDYgMy4yNzMgMCAuNzY4LjI0MSAxLjUxNC42NzkgMi4xMzhoLTIuNTQ1di0zLjY0NWMwLS4xOTktLjE2MS0uMzYtLjM2LS4zNmgtMy42NHYtNy42NGMwLS4xOTktLjE2MS0uMzYtLjM2LS4zNmgtNGMtLjE5OSAwLS4zNi4xNjEtLjM2LjM2djMuNjRoLTMuNjRjLS4xOTkgMC0uMzYuMTYxLS4zNi4zNnYzLjY0aC0zLjY0Yy0uMTk5IDAtLjM2LjE2MS0uMzYuMzZ2My42NDJoLTQuNjRjLS4wOTYgMC0uMTg3LjAzOC0uMjU0LjEwNS0uMDY4LjA2Ny0uMTA1LjE1OS0uMTA1LjI1NHYuODk4YzAgMi44MjYgMS4xNDggNS4zOTQgMy4wMTEgNy4yNzcuMDMzLjA1OC4wODEuMTA1LjEzOS4xMzggMS45MjkgMS44ODIgNC41ODYgMy4wNDYgNy41MTYgMy4wNDYgOC44MzcgMCAxNS44MTQtNS45MTMgMTYuNTA3LTEwLjF6bS0xNy43NjcgNi4zODdjLjE5LS4wNTcuMjk5LS4yNTcuMjQzLS40NDdzLS4yNTYtLjMwMS0uNDQ4LS4yNDJjLTEuNDI1LjQyMy0zLjQ5OS42Ny01LjcxLjY4Mi0xLjcxNi0xLjc1MS0yLjc3Mi00LjEyNy0yLjc3Mi02Ljc0di0uNTM5bDI0LjM0LjAwM2MuMTQ4IDAgLjI4Mi0uMDkxLjMzNi0uMjNzLjAxNy0uMjk2LS4wOTQtLjM5NmMtLjYzMy0uNTc0LS45OTUtMS4zODctLjk5NS0yLjIzMSAwLTEuMDI2LjUzMS0xLjk4MSAxLjQtMi41NC44NjkuNTU4IDEuNCAxLjUxMyAxLjQgMi41NHYuMDA0YzAgLjE5Ni4xNTYuMzU1LjM1My4zNiAxLjAwNS4wMjIgMS45MTUuNTE3IDIuNDc0IDEuMzMzLS41Ny44My0xLjUyNiAxLjMzNy0yLjU0NSAxLjMzN2gtLjUzMWMtLjE4NyAwLS4zNDMuMTQzLS4zNTguMzI5LS4zMzcgMy44NDQtNy4yODcgOS43NzEtMTUuODM0IDkuNzcxLTIuNDM4IDAtNC42NzMtLjg2My02LjQwNC0yLjI5NCAxLjk4Ny0uMDYgMy44MjUtLjMwOCA1LjE0NS0uN3ptOC4zMTMtMTEuMjg3aDMuMjc5djMuMjhoLTMuMjc5em0tNCAwaDMuMjh2My4yOGgtMy4yOHptLTQgMGgzLjI4djMuMjhoLTMuMjh6bS00IDBoMy4yOHYzLjI4aC0zLjI4em04LTRoMy4yOHYzLjI4aC0zLjI4em0tNCAwaDMuMjh2My4yOGgtMy4yOHptNC00aDMuMjh2My4yOGgtMy4yOHoiLz48cGF0aCBmaWxsPSJub25lIiBkPSJtMCAwaDMydjMyaC0zMnoiLz48L3N2Zz4=;" vertex="1" parent="PhYOB5CdQaIOIUDRHRiT-36">
+          <mxGeometry x="175" y="113" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.574;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="616.192" y="870" as="sourcePoint" />
+            <mxPoint x="701" y="939" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="616.06" y="904.74" />
+              <mxPoint x="700.06" y="904.74" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhYOB5CdQaIOIUDRHRiT-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Arquitetura&lt;/h1&gt;&lt;p&gt;Para solucionar a questão de existir transações simultâneas, elaborei a seguinte arquitetura, explicarei cada componente desta.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Load Balancer&lt;/b&gt;: Faz a d&lt;span style=&quot;background-color: initial;&quot;&gt;istribuição das solicitações de entrada entre as instâncias disponíveis do API Gateway e dos microsserviços, f&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ornecendo assim alta disponibilidade e escalabilidade.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;API Gateway:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Roteia as solicitações dos clientes para os serviços apropriados.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Implementa também autenticação e autorização.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Transaction Service:&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Principal responsável por orquestrar o processo de transação.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Garante também a execução rápida e controla a concorrência utilizando o Redis para locks distribuídos.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Redis (Distributed Locking): &lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Responsável por implementar bloqueios distribuídos para garantir exclusão mútua.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Utiliza um lock por conta de cartão de crédito para garantir que apenas uma transação por conta seja processada de cada vez.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Account Service:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Gerencia informações de conta e saldo.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Interagindo com a camada de banco de dados para verificar e atualizar o saldo da conta.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Database:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Gerencia os dados persistentes do sistema.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Implementa transações ACID para garantir a consistência e isolamento dos dados.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cache Layer (Redis):&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Armazena dados frequentemente acessados em memória para acesso rápido, r&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;eduzindo a latência de leitura/escrita frequente.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Logging &amp;amp; Monitoring(Prometheu e Grafana):&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Coleta métricas e logs de todos os componentes.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Fornecendo visualizações e alertas para identificar e resolver problemas de desempenho e de concorrência.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="420" width="410" height="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

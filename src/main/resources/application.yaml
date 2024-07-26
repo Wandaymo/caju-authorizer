@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+management:
+    endpoints:
+        web:
+            base-path: /
+
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password:
+    url: jdbc:h2:mem:transaction
+    username: sa
+    platform: h2
+    initialization-mode: always
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+
+springdoc:
+    swagger-ui:
+      url: /openapi.yaml

@@ -1,0 +1,141 @@
+openapi: 3.0.1
+info:
+  title: Caju Authorizer
+  description: API de transações de cartão
+  contact:
+    name: Wandaymo
+    email: wandaymo@hotmail.com
+  license:
+    name: Wandaymo Gomes
+    url: http://www.wandaymo.com.br
+  version: 1.0.0
+security:
+  - oauth_auth:
+      - write:users
+      - read:users
+servers:
+  - url: http://localhost:8080
+    description: Local server address
+tags:
+  - name: Transação
+    description: "Serviço responsável por receber transações"
+  - name: Usuário
+    description: "Cadastro de usuários e obtenção de token JWT"
+
+paths:
+  /v1/purchase:
+    post:
+      tags:
+        - Transação
+      summary: Cria um nova transação
+      description: Este endpoint cria um nova transação
+      security:
+        - bearerAuth: [ ]
+      requestBody:
+        description: Dados do nova transação
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TransactionDTO'
+      responses:
+        '200':
+          description: TransactionResponseDTO
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransactionResponseDTO'
+
+  /v1/user:
+    post:
+      tags:
+        - Usuário
+      summary: Cria um novo usuário
+      description: Este endpoint cria um novo usuário e retorna um token JWT
+      security:
+        - bearerAuth: [ ]
+      requestBody:
+        description: Dados do usuário
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserDTO'
+      responses:
+        '200':
+          description: Token JWT
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlzcyI6IlJlc3RyaWN0aXZlcyIsImlkIjoxLCJleHAiOjE3MjIxMzA2MzN9.dQPVw3pNoHdOQ9uLoe0jRmHFUgGfOj8JcizgE0MOlsM"
+
+  /v1/user/login:
+    post:
+      tags:
+        - Usuário
+      summary: Login
+      description: Este endpoint recupera um token JWT
+      security:
+        - bearerAuth: [ ]
+      requestBody:
+        description: Dados do usuário
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserDTO'
+      responses:
+        '200':
+          description: Token JWT
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlzcyI6IlJlc3RyaWN0aXZlcyIsImlkIjoxLCJleHAiOjE3MjIxMzA2MzN9.dQPVw3pNoHdOQ9uLoe0jRmHFUgGfOj8JcizgE0MOlsM"
+
+
+components:
+  schemas:
+    TransactionDTO:
+      type: object
+      properties:
+        accountId:
+          type: string
+          description: "Identificador da conta"
+        totalAmout:
+          type: number
+          description: "Valor a ser debitado de um saldo"
+        mcc:
+          type: string
+          description: "Um código numérico de 4 dígitos que classifica os estabelecimentos comerciais de acordo com o tipo de produto vendido ou serviço prestado."
+        merchant:
+          type: string
+          description: "Nome do estabelecimento"
+
+    TransactionResponseDTO:
+      type: object
+      properties:
+        code:
+          type: string
+          description: "Código de retorno"
+
+    UserDTO:
+      type: object
+      properties:
+        username:
+          type: string
+          description: "Nome de usuário"
+          example: admin
+        password:
+          type: string
+          description: "Senha"
+          example: admin
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: |
+        Enter your JWT token in the format **Bearer &lt;token>**.
